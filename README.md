@@ -6,4 +6,5 @@ https://www.figma.com/proto/iqG5qj21mKgANXSMQPZF9L/home-page?node-id=2-2&t=d7MEe
 
 # Diapositivas Aquí:
 https://www.canva.com/design/DAG0BYgpb_k/R4wSzFYX2MEGtSDmzLGipw/edit?utm_content=DAG0BYgpb_k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://docs.google.com/presentation/d/1NonbK9jeEROT1fqhH8dF3f5fj7ge345x/edit?usp=drive_link&ouid=101369574966780581118&rtpof=true&sd=true
 
