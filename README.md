@@ -5,4 +5,5 @@ Oficial Bizzus es un aplicativo web diseñado para centralizar y optimizar la ge
 https://www.figma.com/proto/iqG5qj21mKgANXSMQPZF9L/home-page?node-id=2-2&t=d7MEex1X1wpqPSur-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
 # Diapositivas Aquí:
-https://docs.google.com/presentation/d/1hWyCLmvIa5WlCv9RmnnqTSEeXQMrkwEK/edit?slide=id.p4#slide=id.p4
+https://www.canva.com/design/DAG0BYgpb_k/R4wSzFYX2MEGtSDmzLGipw/edit?utm_content=DAG0BYgpb_k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
