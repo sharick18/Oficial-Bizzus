@@ -15,11 +15,11 @@ Desarrollar un sistema de información web para Oficial Bizzus que permita autom
 ## ✅ Objetivos Específicos
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-01 Diseñar e implementar un sistema que permita la gestión eficiente de usuarios, clientes, inventario y pedidos.
-02 Controlar el inventario mediante el registro de entradas, salidas y alertas automáticas de stock.
-03 Permitir la generación de reportes e informes que apoyen la toma de decisiones estratégicas.
-04 Mejorar la comunicación con los usuarios a través de notificaciones y mensajes automáticos.
-05 Fomentar la retroalimentación del cliente mediante reseñas y calificaciones de productos.
+- Diseñar e implementar un sistema que permita la gestión eficiente de usuarios, clientes, inventario y pedidos.
+- Controlar el inventario mediante el registro de entradas, salidas y alertas automáticas de stock.
+- Permitir la generación de reportes e informes que apoyen la toma de decisiones estratégicas.
+- Mejorar la comunicación con los usuarios a través de notificaciones y mensajes automáticos.
+- Fomentar la retroalimentación del cliente mediante reseñas y calificaciones de productos.
 
 ## ⚠️ Planteamiento del Problema
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
