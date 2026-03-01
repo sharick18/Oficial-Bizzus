@@ -1,147 +1,140 @@
-👕🔥 Guía de Contribución a Oficial Bizz8uz
+# 👕🔥 Guía de Contribución a Oficial Bizz8uz
 
-¡Gracias por tu interés en contribuir a Oficial Bizz8uz!
+¡Gracias por tu interés en contribuir a Oficial Bizz8uz!  
 Este documento describe el proceso y las convenciones que seguimos para mantener un flujo de trabajo ordenado, profesional y colaborativo.
 
-📑 Índice
+---
 
-👕 Guía de Contribución a Oficial Bizz8uz
+## 📑 Índice
 
-📌 Convenciones de Commits
+- 📌 Convenciones de Commits  
+- 📝 Ejemplo  
+- 🔢 Versionamiento Semántico  
+- 🤝 Cierre de Issues y Co-Autores  
+- 📚 Recursos adicionales  
 
-📝 Ejemplo
+---
 
-🔢 Versionamiento Semántico
+## 📌 Convenciones de Commits
 
-🤝 Cierre de Issues y Co-Autores
+Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizz8uz.
 
-📚 Recursos adicionales
+### 🧱 Estructura del mensaje
 
-📌 Convenciones de Commits
-
-Utilizamos una convención basada en Conventional Commits, adaptada para el proyecto Oficial Bizz8uz.
-
-🧱 Estructura del mensaje
 <type>(<scope>): <resumen breve>
 
 <cuerpo del mensaje>
 
 <footer>
-🏷️ type
+
+---
+
+### 🏷️ type
 
 Tipo de cambio. Usa minúsculas.
 
-✨ feat → Nueva funcionalidad para el usuario.
+- ✨ feat → Nueva funcionalidad para el usuario.  
+- 🐛 fix → Corrección de errores.  
+- 📚 docs → Cambios en la documentación.  
+- 🎨 style → Formateo sin cambios en la lógica.  
+- ♻️ refactor → Refactorización sin añadir funcionalidad.  
+- 🧪 test → Añadir o actualizar pruebas.  
+- 🔧 chore → Tareas de mantenimiento.  
+- 🔀 merge → Fusión de ramas.  
+- 🚀 release → Creación de una nueva versión.  
 
-🐛 fix → Corrección de errores.
+---
 
-📚 docs → Cambios en la documentación.
-
-🎨 style → Formato o estilos sin afectar la lógica.
-
-♻️ refactor → Refactorización sin añadir funcionalidad.
-
-🧪 test → Añadir o actualizar pruebas.
-
-🔧 chore → Tareas de mantenimiento.
-
-🔀 merge → Fusión de ramas.
-
-🚀 release → Creación de una nueva versión.
-
-🧩 scope
+### 🧩 scope
 
 Módulo o área afectada (opcional si el cambio es global).
 
 Ejemplos:
+- auth  
+- frontend  
+- backend  
+- inventory  
+- orders  
+- ui  
 
-auth
+---
 
-frontend
+### 📝 resumen breve
 
-backend
-
-inventory
-
-orders
-
-ui
-
-📝 resumen breve
-
-Primera línea del mensaje.
-
-Máximo 70 caracteres.
-
-Clara y concisa.
-
-En tiempo presente.
-
-En minúsculas.
-
-❌ Sin punto final.
+- Máximo 70 caracteres.  
+- Claro y conciso.  
+- En tiempo presente.  
+- En minúsculas.  
+- Sin punto final.  
 
 Debe explicar de forma rápida qué se hizo.
 
-📖 cuerpo del mensaje
+---
 
-Explica el por qué del cambio.
+### 📖 cuerpo del mensaje
 
-Agrega contexto si es necesario.
-
-Deja una línea en blanco entre el resumen y el cuerpo.
-
-Máximo 80 caracteres por línea.
+- Explica el motivo del cambio.  
+- Agrega contexto si es necesario.  
+- Deja una línea en blanco entre el resumen y el cuerpo.  
+- Máximo 80 caracteres por línea.  
 
 Evita detalles técnicos innecesarios.
 
-📎 footer
+---
+
+### 📎 footer
 
 Información adicional como:
 
-Cierre de issues → Closes #número
+- Cierre de issues → Closes #número  
+- Co-autores → co-authored-by: Nombre <correo>  
+- Breaking changes →  
+  BREAKING CHANGE: descripción del cambio incompatible  
 
-Co-autores → co-authored-by: Nombre <correo>
+---
 
-Breaking changes →
-BREAKING CHANGE: descripción del cambio incompatible
+## 📝 Ejemplo
 
-📝 Ejemplo
 feat(inventory): agregar gestión de stock por tallas
 
 Se implementa control de inventario por talla y color
 para mejorar la administración de productos en la tienda.
 
-Closes #12
+Closes #12  
 co-authored-by: Dairon Salazar <correo@bizz8uz.com>
-🔢 Versionamiento Semántico
+
+---
+
+## 🔢 Versionamiento Semántico
 
 El proyecto sigue SemVer 2.0.0:
 
-🔴 X (major) → Cambios incompatibles importantes.
+- 🔴 X (major) → Cambios incompatibles importantes.  
+- 🟡 Y (minor) → Nuevas funcionalidades compatibles.  
+- 🟢 Z (patch) → Correcciones y mejoras menores.  
 
-🟡 Y (minor) → Nuevas funcionalidades compatibles.
+### 📌 Formato de versión
 
-🟢 Z (patch) → Correcciones y mejoras menores.
-
-📌 Formato de versión:
 vX.Y.Z
 
 Ejemplo:
 
 v1.2.3
-🤝 Cierre de Issues y Co-Autores
 
-Para cerrar issues →
-Closes #número
+---
 
-Para agregar co-autores →
-co-authored-by: Nombre <correo>
+## 🤝 Cierre de Issues y Co-Autores
 
-📚 Recursos adicionales
+Para cerrar issues:
+Closes #número  
 
-Conventional Commits
+Para agregar co-autores:
+co-authored-by: Nombre <correo>  
 
-Semantic Versioning
+---
 
-Guía de Git Commit Messages
+## 📚 Recursos adicionales
+
+- Conventional Commits  
+- Semantic Versioning  
+- Guía de Git Commit Messages  
