@@ -1,6 +1,6 @@
 # 👕🔥 Guía de Contribución a Oficial Bizz8uz
 
-¡Gracias por tu interés en contribuir a Oficial Bizz8uz!  
+¡Gracias por tu interés en contribuir a Oficial Bizzus!  
 Este documento describe el proceso y las convenciones que seguimos para mantener un flujo de trabajo ordenado, profesional y colaborativo.
 
 ---
@@ -17,7 +17,7 @@ Este documento describe el proceso y las convenciones que seguimos para mantener
 
 ## 📌 Convenciones de Commits
 
-Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizz8uz.
+Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizzus.
 
 ### 🧱 Estructura del mensaje
 
@@ -29,9 +29,7 @@ Utilizamos una convención basada en Conventional Commits, adaptada para Oficial
 
 ---
 
-### 🏷️ type
-
-Tipo de cambio. Usa minúsculas.
+### 🏷️ type: Tipo de cambio. Usa minúsculas.
 
 - ✨ feat → Nueva funcionalidad para el usuario.  
 - 🐛 fix → Corrección de errores.  
@@ -100,8 +98,8 @@ feat(inventory): agregar gestión de stock por tallas
 Se implementa control de inventario por talla y color
 para mejorar la administración de productos en la tienda.
 
-Closes #12  
-co-authored-by: Dairon Salazar <correo@bizz8uz.com>
+Closes #12
+co-authored-by: Sharick Mateus <correo@bizzuz.com>
 
 ---
 
