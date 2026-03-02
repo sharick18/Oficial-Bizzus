@@ -18,91 +18,96 @@
 
 ## Convenciones de Commits
 
-Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizz8uz.
-
+Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizz8uz.  
 La estructura del mensaje es:
 
-
+```
 <type>(<scope>): <resumen breve>
 
-<cuerpo del mensaje> <footer> ```
+<cuerpo del mensaje>
 
-type: Tipo de cambio. Usa minúsculas.
+<footer>
+```
 
-feat: Nueva funcionalidad para el usuario.
+- **type** : Tipo de cambio. Usa minúsculas.
 
-fix: Corrección de errores para el usuario.
+  - `feat`: Nueva funcionalidad para el usuario.
+  - `fix`: Corrección de errores para el usuario.
+  - `docs`: Cambios en la documentación.
+  - `style`: Formateo, sin cambios en la lógica.
+  - `refactor`: Refactorización, sin añadir funcionalidad.
+  - `test`: Añadir o actualizar pruebas.
+  - `chore`: Tareas de mantenimiento.
+  - `merge`: Fusión de ramas.
+  - `release`: Creación de una nueva versión.
 
-docs: Cambios en la documentación.
+- **scope** : Módulo o área afectada (opcional si el cambio es global).
 
-style: Formateo, sin cambios en la lógica.
+- **resumen breve** : Primera línea del mensaje, clara y concisa (máximo 70 caracteres), que explica de forma rápida y entendible qué se hizo.  
+  Es obligatorio y debe estar en tiempo presente, en minúsculas y sin punto final.
 
-refactor: Refactorización, sin añadir funcionalidad.
+- **cuerpo del mensaje** : Descripción más detallada del cambio, explicando el motivo y contexto si es relevante.  
+  Debe ayudar a entender el "por qué" del cambio, pero evita detalles innecesarios o técnicos muy profundos.  
+  Deja una línea en blanco entre el resumen y el cuerpo.  
+  Cada línea debe tener máximo 80 caracteres.
 
-test: Añadir o actualizar pruebas.
+- **footer** : Información adicional, como cierre de issues (`Closes #número`),  
+  co-autores (`co-authored-by: Nombre <correo>`),  
+  notas de breaking change (`BREAKING CHANGE: descripción`),  
+  referencias a tareas relacionadas o cualquier metadato relevante.
 
-chore: Tareas de mantenimiento.
+---
 
-merge: Fusión de ramas.
+### Ejemplo
 
-release: Creación de una nueva versión.
-
-scope: Módulo o área afectada (opcional si el cambio es global).
-
-resumen breve: Primera línea del mensaje, clara y concisa (máximo 70 caracteres), que explica de forma rápida y entendible qué se hizo.
-Es obligatorio y debe estar en tiempo presente, en minúsculas y sin punto final.
-
-cuerpo del mensaje: Descripción más detallada del cambio, explicando el motivo y contexto si es relevante.
-Debe ayudar a entender el "por qué" del cambio, pero evita detalles innecesarios o técnicos muy profundos.
-Deja una línea en blanco entre el resumen y el cuerpo.
-Cada línea debe tener máximo 80 caracteres.
-
-footer: Información adicional, como cierre de issues (Closes #número),
-co-autores (co-authored-by: Nombre <correo>),
-notas de breaking change (BREAKING CHANGE: descripción),
-referencias a tareas relacionadas o cualquier metadato relevante.
-
-Ejemplo
+```
 feat(inventory): agregar gestión de stock por tallas
 
 Se implementa control de inventario por talla y color,
 permitiendo mejorar la administración de productos.
 
 Closes #12
-co-authored-by: Sharick Mateus <oficialo@bizzuz.com>
-Versionamiento Semántico
+co-authored-by: Sharick Mateus <oficial@bizzus.com>
+```
 
-El proyecto sigue SemVer 2.0.0:
+---
 
-X (major) – Cambios incompatibles a nivel de API o funcionalidades principales.
+## Versionamiento Semántico
 
-Y (minor) – Nuevas funcionalidades compatibles con versiones anteriores.
+El proyecto sigue **SemVer 2.0.0**:
 
-Z (patch) – Correcciones de errores y mejoras menores.
+- **X (major)** – Cambios incompatibles a nivel de API o funcionalidades principales.
+- **Y (minor)** – Nuevas funcionalidades compatibles con versiones anteriores.
+- **Z (patch)** – Correcciones de errores y mejoras menores.
 
-Recomendación
+### Recomendación
 
 Etiqueta las versiones siguiendo el formato estándar:
 
+```
 vX.Y.Z
+```
 
 Por ejemplo:
 
+```
 v1.2.3
-Cierre de Issues y Co-Autores
+```
 
-Para cerrar issues, usa Closes #número en el footer.
+---
 
-Para co-autores, agrega co-authored-by: Nombre <correo> en el footer.
+## Cierre de Issues y Co-Autores
 
-Recursos adicionales
+- Para cerrar issues, usa `Closes #número` en el footer.
+- Para co-autores, agrega `co-authored-by: Nombre <correo>` en el footer.
 
-Conventional Commits
+---
 
-Semantic Versioning
+## Recursos adicionales
 
-Guía de Git Commit Messages  
-
+- Conventional Commits  
+- Semantic Versioning  
+- Guía de Git Commit Messages  
 ---
 
 ## 📚 Recursos adicionales
