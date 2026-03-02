@@ -1,4 +1,4 @@
-# Guía de Contribución a Oficial Bizz8uz
+# Guía de Contribución a Oficial Bizzus
 
 ¡Gracias por tu interés en contribuir! Este documento describe el proceso y las convenciones que seguimos para mantener un flujo de trabajo ordenado y colaborativo.
 
@@ -6,7 +6,7 @@
 
 ## Índice
 
-- [Guía de Contribución a Oficial Bizz8uz](#guía-de-contribución-a-oficial-bizz8uz)
+- [Guía de Contribución a Oficial Bizzus](#guía-de-contribución-a-oficial-bizzus)
   - [Índice](#índice)
   - [Convenciones de Commits](#convenciones-de-commits)
     - [Ejemplo](#ejemplo)
@@ -18,7 +18,7 @@
 
 ## Convenciones de Commits
 
-Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizz8uz.  
+Utilizamos una convención basada en Conventional Commits, adaptada para Oficial Bizzus.  
 La estructura del mensaje es:
 
 ```
