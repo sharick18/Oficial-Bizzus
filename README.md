@@ -45,9 +45,5 @@ El sistema permitirá registrar las entradas y salidas de productos, controlar l
 
 La solución propuesta para mejorar la gestión del inventario en Oficial Bizzus consiste en implementar un sistema digital que organice y actualice automáticamente la información de cada prenda, incluyendo categoría, talla, color, referencia y cantidad disponible. Este sistema registrará de forma inmediata las entradas y salidas de mercancía, enviará alertas cuando haya niveles mínimos y generará informes para identificar tendencias y necesidades de reposición. Además, se elaborará un sistema de información que integra las funciones administrativas, contables y operativas, con el fin de mejorar la custodia del inventario y definir los pasos correctos para la entrega y recepción de mercancía. Su aplicación reducirá pérdidas, evitará inconsistencias y permitirá un mejor control del inventario.
 
-
-# Click Aquí para mockups:
-https://www.figma.com/proto/iqG5qj21mKgANXSMQPZF9L/home-page?node-id=3-2002&t=d7MEex1X1wpqPSur-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
-
 # Diapositivas Aquí:
 https://docs.google.com/presentation/d/1NonbK9jeEROT1fqhH8dF3f5fj7ge345x/edit?usp=drive_link&ouid=101369574966780581118&rtpof=true&sd=true
